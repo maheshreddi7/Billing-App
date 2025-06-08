@@ -5,9 +5,9 @@ import "./MenuBar.css";
 const Menubar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2">
-      <a class="navbar-brand" href="#">
+      <Link class="navbar-brand" to="dashboard">
         <img src={assets.logo} alt="Logo" height="40" />
-      </a>
+      </Link>
       <button
         class="navbar-toggler"
         type="button"
@@ -22,7 +22,7 @@ const Menubar = () => {
       <div class="collapse navbar-collapse p-2" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <Link class="nav-link active" to="dashboard">
+            <Link class="nav-link active" to="/dashboard">
               DASHBOARD
             </Link>
           </li>

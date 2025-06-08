@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Menubar from "./components/Menubar/MenuBar";
-import Dashboard from "./components/pages/Dashboard/Dashboard";
-import Explore from "./components/pages/Explore/Explore";
-import ManageCategory from "./components/pages/ManageCategory/ManageCategory";
-import Manageitems from "./components/pages/Manageitems/Mahageitems";
-import ManageUsers from "./components/pages/ManageUsers/ManageUsers";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Explore from "./pages/Explore/Explore";
+import ManageCategory from "./pages/ManageCategory/ManageCategory";
+import Manageitems from "./pages/Manageitems/Manageitems";
+import ManageUsers from "./pages/ManageUsers/ManageUsers";
 
 export default function App() {
   return (
